@@ -1,0 +1,125 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+artifacts/
+out/
+
+# Visual Studio / VS Code / Rider
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET tooling
+*.lock.json
+project.lock.json
+*.nuget.props
+*.nuget.targets
+.nuget/
+.dotnet-tools/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+# Keep a non-empty packages dir if needed
+!packages/build/
+!packages/repositories.config
+
+# Logs / Coverage / Test
+*.log
+TestResult*/
+TestResults/
+_logs/
+coverage*/
+coverage.*
+*.coverage
+*.coveragexml
+.vscode-test/
+
+# Resharper / Rider / Analyzer caches
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+StyleCop.Cache
+*.sln.iml
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+~$*
+*.~*
+*.orig
+*.bak
+
+# Publish / Deploy
+publish/
+wwwroot/dist/
+wwwroot/build/
+node_modules/
+
+# ASP.NET specific
+App_Data/
+# Environment-specific config (track base appsettings.json but ignore local overrides)
+appsettings.*.local.json
+*.Secret.json
+secrets.json
+
+# Entity Framework
+Migrations/obj/
+
+# Azure
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishProfiles/
+ServiceConfiguration.*.cscfg
+ServiceDefinition.csdef
+
+# IIS / Web
+_IISExpress/
+iisexpress/
+*.vspscc
+*.vssscc
+
+# Rider solution cache
+.sln.DotSettings.user
+
+# TFM-specific obj (sometimes left behind)
+**/obj/**/
+
+# T4 / CodeGen
+*.Transform.cs
+*.Transform.h
+*.tt.cs
+*.ttinclude
+*.tt
+*.generated.*
+*.g.cs
+*.g.i.cs
+
+# Paket (if used)
+.paket/
+paket-files/
+
+# Yarn / PNPM (for SPA parts)
+yarn-error.log
+.pnp.*
+.pnpm-store/
+
+# JetBrains caches
+.cache/
+
+# Docker (optional; comment out if you commit these)
+docker-compose.override.yml
